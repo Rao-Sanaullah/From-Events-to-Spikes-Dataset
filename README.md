@@ -1,1 +1,9 @@
 # From-Events-to-Spikes-Dataset-Transformation-for-Neuromorphic-Computing
+
+
+we present a novel approach for generating spike train datasets from event-based datasets. Our approach involves processing the event-based data and generating a sequence of spikes that mimic the activity of neurons in the visual system. The resulting spike train dataset can be used for a variety of downstream applications, including training and testing machine learning models for tasks such as object recognition and motion tracking. The benefits of this approach include the ability to work with high-speed event-based data, the ability to simulate the behavior of neurons more accurately than traditional frame-based approaches, and the potential to improve the accuracy and efficiency of machine learning models.
+
+# DVS128 Gesture Dataset
+
+The DVS Dataset "https://research.ibm.com/interactive/dvsgesture/" used in this investogation, Our algorithm performs the transformation of events stored in a .aedat file to
+spike trains. Spike trains are matrices that represent the rate of events for each pixel of a DVS dataset in a given time window. The algorithm processes the events in the .aedat file and preprocesses them to remove duplicates and fill in missing events.
